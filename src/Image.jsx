@@ -4,7 +4,7 @@ import github from './assets/github-svgrepo-com.svg'
 import linkdin from './assets/linkedin-svgrepo-com.svg'
 import instagram from './assets/instagram-svgrepo-com.svg'
 import facebook from './assets/facebook-svgrepo-com.svg'
-import email from './assets/email-1-svgrepo-com.svg'
+import email from './assets/whatsapp-svgrepo-com.svg'
 
 const Image = () => {
     return (
@@ -18,7 +18,7 @@ const Image = () => {
                 <a href="https://github.com/Fawas-Anayat" target='blank'>
                     <button className='cursor-pointer hover:scale-105 active:scale-95'><img src={github} className='w-7 max-sm:w-5' alt="" /></button>
                 </a>
-                <a href="mailto:fawasinayat.ips@gmail.com">
+                <a href="https://wa.me/+92 342 6044166" target='_blank'>
                     <button className='cursor-pointer hover:scale-105 active:scale-95'><img src={email} className='w-7 max-sm:w-5' alt="" /></button>
                 </a>
                 <a href="https://www.facebook.com/share/1DpxEJfkLY/" target='_blank'>

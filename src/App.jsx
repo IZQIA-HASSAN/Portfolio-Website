@@ -4,10 +4,13 @@ import Text from './Text'
 import Image from './Image'
 import Quote from './quote'
 import Aboutfawas from './Aboutfawas'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import Certification from './Certification'
 import Project from './Project'
 import Contact from './Contact'
+import Loader from './Loader'
+import { useEffect, useState } from 'react'
+
 
 function App() {
   return (
@@ -30,7 +33,7 @@ function App() {
           <Route path="/Aboutfawas" element={<Aboutfawas />} />
           <Route path="/Certification" element={<Certification />} />
           <Route path='/project' element={<Project />} />
-          <Route path='/Contact' element={<Contact/>}/>
+          <Route path='/Contact' element={<Contact />} />
         </Routes>
       </div>
     </BrowserRouter>
